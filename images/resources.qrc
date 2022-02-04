@@ -1,0 +1,14 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="icons">
+		<file alias="PUA_logo.ico">PUA_logo.ico</file>
+        <file alias="settings.png">settings.png</file>
+		<file alias="open_folder.png">open_folder.png</file>
+        <file alias="folder.png">folder.png</file>
+		<file alias="edit.png">edit.png</file>
+		<file alias="file.png">file.png</file>
+		<file alias="checkmark.png">checkmark.png</file>
+		<file alias="cross.png">cross.png</file>
+		<file alias="excel.png">excel.png</file>
+    </qresource>
+</RCC>

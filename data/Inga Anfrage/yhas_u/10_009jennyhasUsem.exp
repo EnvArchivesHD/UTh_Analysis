@@ -1,0 +1,30 @@
+Neptune Analysis Data Report															
+Block-View - Block: 1															
+Filename: c:\Neptune\User\Neptune\Data\jenny_yhastest_20160831-134406\009jennyhasUsem.dat															
+Date: 31.08.2016															
+Sample ID: yhasUsem															
+Method Name: C:\Neptune\User\Neptune\Methods\UTh\yhas\yhas_sem\yhas_uran_tail_sem.met															
+Wheel ID: 															
+Run number: 8															
+Analysis date: 31.08.2016															
+Analysis time: 14:09:21															
+Operator: 															
+Instrument: 															
+Comment: 															
+Data Version: 3.2.1.15 Preview_4															
+Export Version: 3.2.1.15 Preview_4															
+															
+Cycle	Time	04:48.5	07:53.5	08:56.4	09:56.7	10:57.1	11:57.5	0.540972222	10:238U	3:231.52/10:238U (1)	4:233.52/10:238U (2)	5:236.45/10:238U (3)	7:237.05/10:238U (4)	8:237.45/10:238U (5)	9:239/10:238U (6)
+1	1472645467	2.94E+01	6.92E+01	4.87E+02	9.92E+02	2.41E+03	1.21E+04	6.94E+04	5.20E+01	8.96E-09	1.54E-08	1.51E-07	7.32E-07	3.74E-06	2.14E-05
+2	1472645488	2.87E+01	4.25E+01	4.96E+02	9.06E+02	2.37E+03	1.23E+04	6.99E+04	5.22E+01	8.63E-09	1.26E-08	1.72E-07	7.85E-07	3.76E-06	2.15E-05
+3	1472645509	2.89E+01	4.04E+01	5.90E+02	9.71E+02	2.68E+03	1.22E+04	7.02E+04	5.21E+01	8.40E-09	1.06E-08	1.84E-07	8.01E-07	3.83E-06	2.17E-05
+4	1472645530	2.71E+01	3.22E+01	6.06E+02	9.59E+02	2.57E+03	1.26E+04	7.10E+04	5.23E+01	1.14E-08	1.03E-08	1.57E-07	7.64E-07	3.82E-06	2.15E-05
+5	1472645551	2.99E+01	3.43E+01	4.67E+02	1.01E+03	2.45E+03	1.23E+04	6.96E+04	5.22E+01						
+***	Cup	C(C)	C(C)	C(C)	C(C)	C(C)	C(C)	C(C)	H3	C(C) | H3	C(C) | H3	C(C) | H3	C(C) | H3	C(C) | H3	C(C) | H3
+***	Info	tbdgyc	tbdgyc	tbdgyc	tbdgyc	tbdgyc	tbdgyc	tbdgyc	tbdgy	O tbdgy - Dy	O tbdgy - Dy	O tbdgy - Dy	O tbdgy - Dy	O tbdgy - Dy	O tbdgy - Dy
+***	Mean	2.88E+01	4.37E+01	5.29E+02	9.68E+02	2.49E+03	1.23E+04	7.00E+04	5.22E+01	9.34E-09	1.22E-08	1.66E-07	7.71E-07	3.79E-06	2.15E-05
+***	StdErr (%)	1.65E+00	1.52E+01	5.41E+00	1.86E+00	2.28E+00	7.73E-01	4.17E-01	7.52E-02	7.38E+00	9.59E+00	4.49E+00	1.93E+00	5.37E-01	2.67E-01
+***	StdErr (abs)	4.77E-01	6.63E+00	2.86E+01	1.80E+01	5.69E+01	9.51E+01	2.92E+02	3.92E-02	6.90E-10	1.17E-09	7.46E-09	1.49E-08	2.03E-08	5.74E-08
+***	StdDev (%)	3.70E+00	3.39E+01	1.21E+01	4.17E+00	5.10E+00	1.73E+00	9.32E-01	1.68E-01	1.48E+01	1.92E+01	8.98E+00	3.86E+00	1.07E+00	5.33E-01
+***	StdDev (abs)	1.07E+00	1.48E+01	6.40E+01	4.03E+01	1.27E+02	2.13E+02	6.52E+02	8.77E-02	1.38E-09	2.35E-09	1.49E-08	2.97E-08	4.06E-08	1.15E-07
+***	Valid Values	5 (5)	5 (5)	5 (5)	5 (5)	5 (5)	5 (5)	5 (5)	5 (5)	4 (5)	4 (5)	4 (5)	4 (5)	4 (5)	4 (5)

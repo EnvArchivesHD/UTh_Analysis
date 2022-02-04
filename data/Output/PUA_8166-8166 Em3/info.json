@@ -1,0 +1,9 @@
+{
+    "name": "Em3",
+    "type": "Stalagmit",
+    "min_lab_nr": "8166",
+    "max_lab_nr": "8166",
+    "lon": "123",
+    "lat": "456",
+    "description": "Bachelorabeit von X"
+}

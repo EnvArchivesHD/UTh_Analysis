@@ -1,0 +1,6 @@
+DEFAULT_CONSTANTS_KEY = 'default_constants'
+OUTPUT_KEY = 'output'
+LAYOUT_KEY = 'layout'
+METADATA_HISTORY_KEY = 'metadata_history'
+MEAN_METHOD = 'Mean method'
+DEV_METHOD = 'Outlier detection method'

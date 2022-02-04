@@ -1,0 +1,9 @@
+{
+    "name": "CPR",
+    "type": "Stalagmit",
+    "min_lab_nr": "10989",
+    "max_lab_nr": "10993",
+    "lon": "123",
+    "lat": "456",
+    "description": "Im Rahmen der Bachelorarbeit von Max Mustermann erstellt."
+}

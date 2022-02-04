@@ -1,0 +1,1 @@
+pyrcc5 images/resources.qrc -o resources.py

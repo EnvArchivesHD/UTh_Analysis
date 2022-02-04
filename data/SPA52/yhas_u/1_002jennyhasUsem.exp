@@ -1,0 +1,39 @@
+Neptune Analysis Data Report															
+Filename: c:\Neptune\User\Neptune\Data\jenny2408_20160928-152314\002jennyhasUsem.dat															
+Date: 28.09.2016															
+Sample ID: yhasUsem															
+Method Name: C:\Neptune\User\Neptune\Methods\UTh\yhas\yhas_sem\yhas_uran_tail_sem.met															
+Wheel ID: 															
+Run number: 2															
+View Mode: RUN_VIEW															
+Evaluation Mode: Static															
+Analysis date: 28.09.2016															
+Analysis time: 15:29:19															
+Operator: 															
+Instrument: 															
+Comment: 															
+SampleType: STD															
+Blank 1: 															
+Blank 2: 															
+Standard 1: 															
+Standard 2: 															
+Data Version: 3.2.1.15 Preview_4															
+Export Version: 3.2.1.15 Preview_4															
+															
+Cycle	Time	04:48.5	07:53.5	08:56.4	09:56.7	10:57.1	11:57.5	0.540972222	10:238U	3:231.52/10:238U (1)	4:233.52/10:238U (2)	5:236.45/10:238U (3)	7:237.05/10:238U (4)	8:237.45/10:238U (5)	9:239/10:238U (6)
+1	15:31:40:851	3.09E+00	5.75E+00	2.03E+02	3.01E+02	5.60E+02	2.45E+03	1.25E+03	2.96E+01	4.79E-08	3.11E-09	1.10E-07	3.03E-07	1.32E-06	6.78E-07
+2	15:32:02:013	1.77E+00	1.50E+00	1.86E+02	3.01E+02	6.41E+02	2.53E+03	1.31E+03	2.96E+01	4.91E-08	8.11E-10	1.01E-07	3.47E-07	1.37E-06	7.10E-07
+3	15:32:23:174	9.69E-01	1.50E+00	1.57E+02	3.90E+02	5.86E+02	2.59E+03	1.24E+03	2.97E+01	5.64E-08	8.09E-10	8.44E-08	3.16E-07	1.39E-06	6.70E-07
+4	15:32:44:334	1.73E-01	1.50E+00	1.52E+02	2.80E+02	6.32E+02	2.48E+03	1.25E+03	2.96E+01	5.02E-08	8.12E-10	8.24E-08	3.42E-07	1.34E-06	6.74E-07
+5	15:33:05:496	4.38E-01	7.87E+00	1.35E+02	2.46E+02	6.37E+02	2.61E+03	1.30E+03	2.95E+01	4.51E-08	4.27E-09	7.33E-08	3.45E-07	1.41E-06	7.04E-07
+***	Cup	C(C)	C(C)	C(C)	C(C)	C(C)	C(C)	C(C)	H3	C(C) | H3	C(C) | H3	C(C) | H3	C(C) | H3	C(C) | H3	C(C) | H3
+***	Info	ctbdgy	ctbdgy	ctbdgy	ctbdgy	ctbdgy	ctbdgy	ctbdgy	tbdgy	Otbdgy - St	Otbdgy - St	Otbdgy - St	Otbdgy - St	Otbdgy - St	Otbdgy - St
+***	Blank	No BLK	No BLK	No BLK	No BLK	No BLK	No BLK	No BLK	No BLK						
+***	Mean	1.29E+00	3.62E+00	1.67E+02	3.04E+02	6.11E+02	2.53E+03	1.27E+03	2.96E+01	4.97E-08	1.96E-09	9.02E-08	3.30E-07	1.37E-06	6.87E-07
+***	StdErr (%)	4.09E+01	3.71E+01	7.37E+00	7.87E+00	2.65E+00	1.20E+00	1.15E+00	7.98E-02	3.74E+00	3.71E+01	7.35E+00	2.70E+00	1.21E+00	1.20E+00
+***	StdErr (abs)	5.27E-01	1.34E+00	1.23E+01	2.39E+01	1.62E+01	3.04E+01	1.46E+01	2.36E-02	1.86E-09	7.28E-10	6.62E-09	8.91E-09	1.65E-08	8.25E-09
+***	StdDev (%)	9.15E+01	8.29E+01	1.65E+01	1.76E+01	5.92E+00	2.68E+00	2.57E+00	1.78E-01	8.37E+00	8.30E+01	1.64E+01	6.03E+00	2.70E+00	2.68E+00
+***	StdDev (abs)	1.18E+00	3.00E+00	2.75E+01	5.35E+01	3.62E+01	6.80E+01	3.27E+01	5.28E-02	4.16E-09	1.63E-09	1.48E-08	1.99E-08	3.69E-08	1.84E-08
+***	Valid Values	5(5)	5(5)	5(5)	5(5)	5(5)	5(5)	5(5)	5(5)	5(5)	5(5)	5(5)	5(5)	5(5)	5(5)
+***	ExtErr	NOT AVAILABLE	NOT AVAILABLE	NOT AVAILABLE	NOT AVAILABLE	NOT AVAILABLE	NOT AVAILABLE	NOT AVAILABLE	NOT AVAILABLE	NOT AVAILABLE	NOT AVAILABLE	NOT AVAILABLE	NOT AVAILABLE	NOT AVAILABLE	NOT AVAILABLE
+***	Standard StdErr (%)														
