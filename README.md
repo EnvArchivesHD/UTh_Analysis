@@ -1,5 +1,4 @@
-# BachelorGUI
+# UTh Dating Analysis algorithm with GUI
 
-Github repository für die GUI zur U/Th-Datierung von Speleothemen. Entwickelt wurde diese im Rahmen meiner Bachelorarbeit.
-
-![bild](https://i.imgur.com/huV5mQH.png)
+Software of Physics of Environmental Archives group, Institute for Environmental Physics, Heidelberg University.
+GUI developed by Fabian Kontor
