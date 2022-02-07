@@ -66,7 +66,7 @@ class Window(QtWidgets.QMainWindow):
         closeAction.setStatusTip('Closes the program')
         closeAction.triggered.connect(self.close_application)
 
-        showHelpAction = QtWidgets.QAction('Nutzung', self)
+        showHelpAction = QtWidgets.QAction('Usage instructions', self)
         showHelpAction.setStatusTip('Shows, how to use the program.')
         showHelpAction.triggered.connect(self.showHelp)
 
@@ -199,20 +199,14 @@ class Window(QtWidgets.QMainWindow):
         helpBox = QMessageBox()
         helpBox.setIcon(QMessageBox.Information)
         helpBox.setWindowTitle('How to use')
-        helpBox.setText("Nutzung (Reihenfolge beachten):\n\n" +
-                        "1. Im Input-Tab den Datenordner auswählen.\n" +
-                        "2. Falls noch nicht vorhanden: Konstanten laden oder neu erstellen.\n" +
-                        "3. Falls nötig messungsspezifische Konstanten einstellen.\n"
-                        "4. Im Input-Tab auf \"Run\" klicken, um die Isotopenverhältnise zu berechnen.\n" +
-                        "    Im Datenordner sollten nun die Dateien \"PrBlank.xlsx\", \"Ratios.xlsx\" und\n" +
-                        "    \"Ratios_add.xlsx\" sein.\n" +
-                        "5. Im Analysis-Tab eine Metadaten-Datei laden oder neu erstellen.\n" +
-                        "6. Auf \"Start Analysis\" klicken.\n" +
-                        "7. Im Datenordner sollte nun die Datei \"Results.xlsx\" erstellt sein.\n"
-                        "\n" +
-                        "Falls es Probleme beim Einlesen der Daten gibt, bitte den Beispiel"
-                        "ordner als Vorlage nehmen. Bei weiteren Fragen oder Problemen bitte "
-                        "@fabi anschreiben auf Mattermost oder Email an f.kontor@stud.uni-heidelberg.de.")
+        helpBox.setText("Instructions for basic use:\n\n" +
+                        "1. Select the input folder (directory path) in \"Input\" by clicking on the folder icon and navigating to the respective folder. \n" +
+                        "2. Load constants .cfg file for corals or speleothems. Edit constants manually, if necessary. \n" +
+                        "3. Edit custom constants manually, if necessary.\n"
+                        "4. Click \"Run\" to start ratio calculations. \n" +
+                        "5. Load or create a metadata file in \"Analysis\".\n" +
+                        "6. Click \"Start Analysis\".\n" +
+                        "\n" )
         helpBox.exec_()
 
     def showAbout(self):
@@ -220,9 +214,10 @@ class Window(QtWidgets.QMainWindow):
         aboutBox.setIcon(QMessageBox.Information)
         aboutBox.setWindowTitle('Info')
         aboutBox.setTextFormat(QtCore.Qt.RichText)
-        aboutBox.setText('Programm: U/Th Data Analysis v1.0<br>' +
-                         'Erstellt von: Fabian Kontor am Institut für Umweltphysik in Heidelberg (2021)<br>' +
-                         'Ermöglicht durch: PyQt5, <a href="https://pypi.org/project/PyQt5/">https://pypi.org/project/PyQt5/</a>')
+        aboutBox.setText('U/Th Data Analysis v1.0<br>' +
+                         'Developed in the research group of Prof. Norbert Frank at the Institute for Environmental Physics, Heidelberg University <br>' +
+                         'GUI developed by Fabian Kontor; algorithm by Inga Kristina Kerber, Jennifer Arps, René Eichstädter and others <br>' +
+                         'PyQt5, <a href="https://pypi.org/project/PyQt5/">https://pypi.org/project/PyQt5/</a>')
         aboutBox.exec_()
 
     def get_change_style_action(self, style):
@@ -252,7 +247,7 @@ class Window(QtWidgets.QMainWindow):
             self.showFullScreen()
 
     def openGitHub(self):
-        webbrowser.open('https://github.com/zebleck/BachelorGUI')
+        webbrowser.open('https://github.com/slartibartfa/UTh_Analysis')
 
     def close_application(self):
         sys.exit()

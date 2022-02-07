@@ -11,8 +11,8 @@ ratiosConstants = {
     'mf68': ('Mf 236 / 238', 'float'), 'mf92': ('Mf 229 / 232', 'float'), 'mf38': ('Mf 233 / 238', 'float'),
     'mf35': ('Mf 233 / 235', 'float'), 'mf43': ('Mf 234 / 233', 'float'), 'mf45': ('Mf 234 / 235', 'float'),
     'mf09': ('Mf 230 / 229', 'float'), 'mf29': ('Mf 232 / 239', 'float'), 'mf34': ('Mf 233 / 234', 'float'),
-    'mf58': ('Mf 235 / 238', 'float'), 'mf02': ('Mf 230 / 232', 'float'), 'l230': ('\u03BB<sup>230</sup>', 'float'),
-    'l232': ('\u03BB<sup>232</sup>', 'float'), 'l234': ('\u03BB<sup>234</sup>', 'float'), 'l238': ('\u03BB<sup>238</sup>', 'float'),
+    'mf58': ('Mf 235 / 238', 'float'), 'mf02': ('Mf 230 / 232', 'float'), 'l230': ('\u03BB<sub>230</sub>', 'float'),
+    'l232': ('\u03BB<sub>232</sub>', 'float'), 'l234': ('\u03BB<sub>234</sub>', 'float'), 'l238': ('\u03BB<sub>238</sub>', 'float'),
     'NA': ('NA', 'float'), 'NR85': ('NR85', 'float'), 'cps': ('Counts per second', 'float'),
     'R3433': ('R34_33', 'float'), 'R3533': ('R35_33', 'float'),
     'R3029': ('R30_29', 'float'), 'th229SubU238': ('229Th - k * 238U', 'float'), 'th230SubU238': ('230Th - k * 238U', 'float')
@@ -28,7 +28,7 @@ analysisConstants = {
     'a230232_init_sst': ('A230Th232Th Init. Sst', 'float'), 'a230232_init_err_sst': ('A230Th232Th Init. Sst. Error (abs.)', 'float')
 }
 standardConstants = {
-    'standardBezeich': ('Bezeich.', 'string'), 'standardEinwaage': ('Einwaage (g)', 'float'), 'standardTriSp13': ('TriSp13 (g)', 'float')
+    'standardDenom': ('Denomination', 'string'), 'standardSampleMass': ('Sample mass (g)', 'float'), 'standardTriSp13': ('TriSp13 (g)', 'float')
 }
 
 def loadConstants(path):

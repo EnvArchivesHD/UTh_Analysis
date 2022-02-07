@@ -53,11 +53,11 @@ class MetadataDialog(QDialog):
         else:
             metadataFrame = pd.DataFrame({
                 'Lab. #': '',
-                'Bezeich.': '',
-                'Art der Probe': '',
-                'Mess. Dat.': '',
-                'Tiefe (cm)': '',
-                'Einwaage (g)': '',
+                'Denomination': '',
+                'Sample type': '',
+                'Meas. Dat.': '',
+                'Depth': '',
+                'Sample mass (g)': '',
                 'TriSp13 (g)': ''
             }, index=[])
         self.dataModel = MetadataFrameModel(metadataFrame)

@@ -183,10 +183,10 @@ class InputTabWidget(QWidget):
         font = QtGui.QFont()
         font.setPixelSize(12)
 
-        tailShiftLabel = QLabel('Tailshift von 228.5 zu 227.5?')
+        tailShiftLabel = QLabel('Shift tailing half-mass from 228.5 to 227.5?')
         tailShiftLabel.setFont(font)
         tailShiftLabel.setAlignment(Qt.AlignRight | Qt.AlignVCenter)
-        blankLabel = QLabel('Blank abziehen?')
+        blankLabel = QLabel('Subtract blank?')
         blankLabel.setFont(font)
         blankLabel.setAlignment(Qt.AlignRight | Qt.AlignVCenter)
         self.tailShiftCheckBox = QCheckBox()
@@ -355,10 +355,10 @@ class InputTabWidget(QWidget):
         msg = QMessageBox()
         msg.setIcon(QMessageBox.Information)
         if self.checkOutputStatus():
-            msg.setText("Die Output-Einstellungen sind richtig konfiguriert.")
+            msg.setText("The output settings are configured correctly.")
         else:
-            msg.setText("Die Output-Einstellungen sind nicht richtig konfiguriert.")
-        msg.setWindowTitle("Status des Output-Ordners")
+            msg.setText("The output settings are not configured correctly.")
+        msg.setWindowTitle("State of the output folder")
         msg.exec_()
 
     def checkOutputStatus(self):

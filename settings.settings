@@ -1,8 +1,9 @@
 {
-    "default_constants": "C:/Users/ikerb/Documents/Seafile/Meine Bibliothek/Promotion/12_GUICode/BachelorGUI-master/dist/constants - stalag.cfg",
+    "default_constants": "C:/Users/ikerb/Documents/Seafile/Meine Bibliothek/Promotion/12_GUICode/GUI/dist/constants - stalag.cfg",
     "style": "windowsvista",
     "output": "C:/Users/ikerb/Documents/Seafile/Meine Bibliothek/Promotion/12_GUICode/BachelorGUI-master/data/Nils_140621_20210614-124335",
     "metadata_history": [
+        "C:\\Users\\ikerb\\Documents\\Seafile\\Meine Bibliothek\\Promotion\\12_GUICode\\GUI\\data\\Stalag_06_21\\W\u00e4geprotokoll.xlsx",
         "C:\\Users\\ikerb\\Documents\\Seafile\\Meine Bibliothek\\Promotion\\12_GUICode\\BachelorGUI-master\\data\\Nils_140621_20210614-124335\\W\u00e4geprotokoll.xlsx",
         "C:\\Users\\ikerb\\Documents\\Seafile\\Meine Bibliothek\\Promotion\\05_Paper\\UTh_Paper\\Evaluation sectionwise\\Em3\\inputs.csv",
         "A:\\Github Repos\\BachelorGUI\\data\\Yting_260321_20210326-103027\\Coral W\u00e4geprotokoll.xlsx",
