@@ -1,8 +1,10 @@
 {
-    "default_constants": "C:/Users/ikerb/Documents/Seafile/Meine Bibliothek/Promotion/12_GUICode/GUI/dist/constants - stalag.cfg",
+    "default_constants": "C:/Users/ikerb/Documents/Seafile/Meine Bibliothek/Promotion/12_GUICode/UTh_Analysis/dist/constants - stalag.cfg",
     "style": "Fusion",
     "metadata_history": [
+        "C:\\Users\\ikerb\\Documents\\Seafile\\Meine Bibliothek\\Promotion\\12_GUICode\\GUI_old_version\\GUI\\data\\Nils_140621_20210614-124335\\W\u00e4geprotokoll.xlsx",
+        "C:\\Users\\ikerb\\Documents\\Seafile\\Meine Bibliothek\\Promotion\\12_GUICode\\GUI_old_version\\GUI\\data\\Stalag_06_21\\W\u00e4geprotokoll.xlsx",
         "C:/Users/ikerb/Documents/Seafile/Meine Bibliothek/Promotion/12_GUICode/GUI/data/Stalag_06_21/W\u00e4geprotokoll.xlsx"
     ],
-    "output": "C:/Users/ikerb/Documents/Seafile/Meine Bibliothek/Promotion/12_GUICode/GUI/data/Output"
+    "output": "C:/Users/ikerb/Documents/Seafile/Meine Bibliothek/Promotion/12_GUICode/GUI_old_version/GUI/data/Output"
 }
