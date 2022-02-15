@@ -1,7 +1,8 @@
 {
-    "default_constants": "C:/Users/ikerb/Documents/Seafile/Meine Bibliothek/Promotion/12_GUICode/UTh_Analysis/dist/constants - stalag.cfg",
+    "default_constants": "C:/Users/ikerb/Documents/Seafile/Meine Bibliothek/Promotion/12_GUICode/UTh_Analysis/dist/constants - coral.cfg",
     "style": "Fusion",
     "metadata_history": [
+        "C:\\Users\\ikerb\\Documents\\Seafile\\Meine Bibliothek\\Promotion\\05_Paper\\UTh_Paper_II\\samples\\GeoB23183-1Lp2_10392\\Readin_Metadata_coral.csv",
         "C:\\Users\\ikerb\\Documents\\Seafile\\Meine Bibliothek\\Promotion\\05_Paper\\UTh_Paper_II\\samples\\E8-21_11341\\Readin_Metadata_stalag.csv",
         "C:\\Users\\ikerb\\Documents\\Seafile\\Meine Bibliothek\\Promotion\\12_GUICode\\GUI_old_version\\GUI\\data\\Nils_140621_20210614-124335\\W\u00e4geprotokoll.xlsx",
         "C:\\Users\\ikerb\\Documents\\Seafile\\Meine Bibliothek\\Promotion\\12_GUICode\\GUI_old_version\\GUI\\data\\Stalag_06_21\\W\u00e4geprotokoll.xlsx",
