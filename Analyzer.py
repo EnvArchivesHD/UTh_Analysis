@@ -277,15 +277,15 @@ class Analyzer:
         # a234238
         a234238 = ratios['Ratio 234/238'] * self.lambda234 / self.lambda238
         a234238_err = a234238 * ratios['Error (%) 234/238'] / 100
-        a234238_corr = [a234238[i] * 2 / (a234238[i - 1] + a234238[i + 1])
-                        if (
-                0 < i < len(a234238) - 1 and
-                self.standard is not None and
-                self.standard not in ratios['Lab. #'].iloc[i]
-        )
-                        else a234238[i]
-                        for i
-                        in range(len(a234238))]
+        
+        a234238_corr = np.array(a234238)
+        for i in range(len(a234238) - 1):
+            if (self.standard is not None and self.standard not in ratios['Lab. #'].iloc[i] and self.standard in ratios['Lab. #'].iloc[i-1] and self.standard in ratios['Lab. #'].iloc[i+1]):
+                a234238_corr[i] = a234238[i] * 2 / (a234238[i - 1] + a234238[i + 1])
+            elif (self.standard is not None and self.standard not in ratios['Lab. #'].iloc[i] and self.standard in ratios['Lab. #'].iloc[i-2] and self.standard in ratios['Lab. #'].iloc[i+1]):
+                a234238_corr[i] = a234238[i] * 2 / (a234238[i - 2] + a234238[i + 1])
+            elif (self.standard is not None and self.standard not in ratios['Lab. #'].iloc[i] and self.standard in ratios['Lab. #'].iloc[i-1] and self.standard in ratios['Lab. #'].iloc[i+2]):
+                a234238_corr[i] = a234238[i] * 2 / (a234238[i - 1] + a234238[i + 2]) 
         a234238_corr_err = a234238_corr * ratios['Error (%) 234/238'] / 100
 
         # 232Th
