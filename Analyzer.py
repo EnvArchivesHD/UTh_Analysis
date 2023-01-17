@@ -277,15 +277,15 @@ class Analyzer:
         # a234238
         a234238 = ratios['Ratio 234/238'] * self.lambda234 / self.lambda238
         a234238_err = a234238 * ratios['Error (%) 234/238'] / 100
-        a234238_corr = [a234238[i] * 2 / (a234238[i - 1] + a234238[i + 1])
-                        if (
-                0 < i < len(a234238) - 1 and
-                self.standard is not None and
-                self.standard not in ratios['Lab. #'].iloc[i]
-        )
-                        else a234238[i]
-                        for i
-                        in range(len(a234238))]
+        
+        a234238_corr = np.array(a234238)
+        for i in range(len(a234238) - 1):
+            if (self.standard is not None and self.standard not in ratios['Lab. #'].iloc[i] and self.standard in ratios['Lab. #'].iloc[i-1] and self.standard in ratios['Lab. #'].iloc[i+1]):
+                a234238_corr[i] = a234238[i] * 2 / (a234238[i - 1] + a234238[i + 1])
+            elif (self.standard is not None and self.standard not in ratios['Lab. #'].iloc[i] and self.standard in ratios['Lab. #'].iloc[i-2] and self.standard in ratios['Lab. #'].iloc[i+1]):
+                a234238_corr[i] = a234238[i] * 2 / (a234238[i - 2] + a234238[i + 1])
+            elif (self.standard is not None and self.standard not in ratios['Lab. #'].iloc[i] and self.standard in ratios['Lab. #'].iloc[i-1] and self.standard in ratios['Lab. #'].iloc[i+2]):
+                a234238_corr[i] = a234238[i] * 2 / (a234238[i - 1] + a234238[i + 2]) 
         a234238_corr_err = a234238_corr * ratios['Error (%) 234/238'] / 100
 
         # 232Th
@@ -313,15 +313,14 @@ class Analyzer:
         # a230238
         a230238 = th230dpmg / u238dpmg
         a230238_err = a230238 * ((u238dpmg_err / u238dpmg) ** 2 + (th230pgg_err / th230pgg) ** 2) ** 0.5
-        a230238_corr = [a230238[i] * 2 / (a230238[i - 1] + a230238[i + 1])
-                        if (
-                0 < i < len(a230238) - 1 and
-                self.standard is not None and
-                self.standard not in ratios['Lab. #'].iloc[i]
-        )
-                        else a230238[i]
-                        for i
-                        in range(len(a230238))]
+        a230238_corr = np.array(a230238)
+        for i in range(len(a230238) - 1):
+            if (self.standard is not None and self.standard not in ratios['Lab. #'].iloc[i] and self.standard in ratios['Lab. #'].iloc[i-1] and self.standard in ratios['Lab. #'].iloc[i+1]):
+                a230238_corr[i] = a230238[i] * 2 / (a230238[i - 1] + a230238[i + 1])
+            elif (self.standard is not None and self.standard not in ratios['Lab. #'].iloc[i] and self.standard in ratios['Lab. #'].iloc[i-2] and self.standard in ratios['Lab. #'].iloc[i+1]):
+                a230238_corr[i] = a230238[i] * 2 / (a230238[i - 2] + a230238[i + 1])
+            elif (self.standard is not None and self.standard not in ratios['Lab. #'].iloc[i] and self.standard in ratios['Lab. #'].iloc[i-1] and self.standard in ratios['Lab. #'].iloc[i+2]):
+                a230238_corr[i] = a230238[i] * 2 / (a230238[i - 1] + a230238[i + 2]) 
         a230238_corr_err = a230238_corr * ((th230dpmg_err / th230dpmg) ** 2 + (u238dpmg_err / u238dpmg) ** 2) ** 0.5
 
         # a232238
